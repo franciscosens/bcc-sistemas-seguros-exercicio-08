@@ -1,4 +1,4 @@
-# Desenvolvimento de Sistemas Seguros - Exercício 05
+# Desenvolvimento de Sistemas Seguros - Exercício 08
 
 Fundação da Universidade Regional de Blumenau
 
@@ -6,12 +6,31 @@ Alunos:
 * Francisco Lucas Sens
 * Gabriel Castellani de Oliveira
 
+[Conteúdo](assets/15-CriptografiaDeChavePública.pdf)
+
 # Enunciado: 
 
-Nesta lista iremos exercitar a implementação do algoritmo de cifragem denominado de “Cifra de César”.
+Publique as soluções no AVA e salve os resultados num documento no Word, conforme indicado em cada questão.
 
-Para isso, construa um programa que possibilite ao usuário cifrar algum texto e decifrar algum texto utilizando este
-algoritmo.
+## Questão 1
+Crie um programa que gere um par de chaves privada e pública relacionadas.
 
-A cifra de César limita-se a cifrar apenas caracteres constituídos de letras do alfabeto. Espaços, números e outros
-caracteres não compõe o texto simples.
+Exiba o valor do módulo e dos expoentes de cada chave gerada.
+
+Salve cada uma das chaves num arquivo separado, pois as chaves precisarão ser recuperadas nas questões seguintes.
+
+Num documento do Word, coloque o expoente da chave pública, da chave privada e o módulo do par de chaves gerados.
+
+## Questão 2
+
+Crie um programa que criptografe um arquivo submetido pelo usuário utilizando o algoritmo AES.
+
+Criptografe a chave simétrica (do algoritmo AES) utilizando a chave pública gerada na questão 1.
+
+Num documento do Word, coloque o texto simples, bem como o texto cifrado pelo algoritmo RSA.
+
+## Questão 3
+
+Crie um programa que decriptografe a chave de um algoritmo AES, utilizando a chave assimétrica privada gerada na questão 1.
+
+Decriptografe o arquivo utilizando a chave obtida.
