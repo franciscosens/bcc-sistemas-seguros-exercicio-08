@@ -1,0 +1,7 @@
+venv/
+.vscode/
+
+chave_privada.txt
+chave_publica.txt
+chave_cifrada.txt
+texto_cifrado.txt
